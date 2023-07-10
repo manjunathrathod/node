@@ -1,0 +1,21 @@
+{
+    "name": "nodejs-sample-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "test": "jest --runInBand --detectOpenHandles --forceExit",
+      "lint": "eslint .",
+      "build": "mkdir -p build && cp -r src/* build/"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "jest": "^27.0.6",
+      "supertest": "^6.1.3"
+    }
+  }
+  
